@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  background-color: white;
+  background-image: url(/Images/BackGround\ Image1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+#outsidecontainer {
+  background-color: #00000050;
+  box-shadow: 0em 0em 0.8em rgb(0, 0, 0);
+  padding: 2em 0em;
+  width: 55%;
+  min-width: 55%;
+  position: relative;
+  left: 27em;
+  bottom: 54.7em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1em;
+  text-align: center;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  font-size: 2.5em;
+  font-family: "Nunito", sans-serif;
+  color: #fff8dc;
+  letter-spacing: 0.1em;
+  display: flex;
+  position: relative;
+  bottom: 4em;
+  left: 0.7em;
+}
+.container h1:after {
+  content: ".....";
+  background: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255), rgb(150, 0, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.container {
+  background-color: #000000;
+  padding: 10em 0em;
+  width: 93%;
+  min-width: 93%;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  border-radius: 1em;
+  text-align: center;
+}
+
+::placeholder {
+  color: white;
+  font-size: 1.4em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"] {
+  width: 88%;
+  padding: 1.2em;
+  position: relative;
+  bottom: 7.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-bottom: 0.2em solid #333;
+  background-color: transparent;
+  font-size: 1.2em;
+  outline: none;
+  color: #fff;
+  transition: 0.4s ease;
+}
+input[type="email"] {
+  width: 88%;
+  position: relative;
+  bottom: 4em;
+  font-size: 1.2em;
+  padding: 1.2em;
+  border: none;
+  border-bottom: 0.2em solid #333;
+  background-color: transparent;
+  outline: none;
+  transition: 0.4s ease;
+  color: #ffffff;
+}
+textarea::placeholder {
+  position: relative;
+  bottom: 0.2em;
+}
+textarea {
+  width: 88%;
+  padding: 1.2em;
+  position: relative;
+  bottom: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 0.9em;
+  border: none;
+  border-bottom: 0.2em solid #333;
+  background-color: transparent;
+  outline: none;
+  transition: 0.4s ease;
+  font-size: 1.2em;
+  resize: vertical;
+  overflow: hidden;
+  color: #ffffff;
+}
+input[type="text"]:focus {
+  border-bottom: 0.2em solid #cd8d7a;
+  transition: 0.4s ease;
+  color: #fff;
+  transform: translateY(1.2em);
+}
+input[type="email"]:focus {
+  border-bottom: 0.2em solid #ff6969;
+  transition: 0.4s ease;
+  transform: translateY(1.2em);
+  color: #fff;
+}
+textarea:focus {
+  border-bottom: 0.2em solid #fc819e;
+  transition: 0.4s ease;
+  transform: translateY(1.2em);
+  color: #fff;
+}
+
+button {
+  display: flex;
+  position: relative;
+  top: 4em;
+  left: 1.5em;
+  border-radius: 0.5em;
+  padding: 1em 5em;
+  font-family: "Nunito", sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1em;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  top: 10em;
+  width: 100%;
+  background-color: #111111;
+  padding: 0.1em 0em;
+  line-height: 1.5em;
+  font-family: "Nunito", sans-serif;
+  border-radius: 0em 0em 1em 1em;
+}
+.footer a {
+  text-decoration: none;
+  color: #faebd7;
+  transition: 0.5s ease;
+  font-size: 1.1em;
+}
+.footer a:hover {
+  background: linear-gradient(#bbe9ff, #f075aa, #d13d62);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 0.5s linear;
+}
+
+.name1 {
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  bottom: 6.5em;
+  font-size: 1.2em;
+  left: 1.8em;
+  width: 50%;
+  transition: 0.4s ease;
+  cursor: pointer;
+  color: #fff;
+}
+.form-group:focus-within .name1 {
+  color: #cd8d7a;
+  transition: 0.3s linear;
+}
+.email1 {
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  bottom: 3.2em;
+  font-size: 1.2em;
+  left: 1.8em;
+  transition: 0.4s ease;
+  width: 50%;
+  cursor: pointer;
+  color: #fff;
+}
+.form-group:focus-within .email1 {
+  color: #ff6969;
+  transition: 0.3s linear;
+}
+.message1 {
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  bottom: 0.7em;
+  font-size: 1.2em;
+  left: 1.8em;
+  width: 50%;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+.form-group:focus-within .message1 {
+  color: #fc819e;
+  transition: 0.3s linear;
+}
+.buttonreset {
+  display: flex;
+  position: relative;
+  top: 5em;
+  left: 1.5em;
+  border-radius: 0.5em;
+  padding: 1em 5.4em;
+  font-family: "Nunito", sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+#glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+#glow-on-hover:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+#glow-on-hover:active {
+  color: #ffffff;
+}
+
+#glow-on-hover:active:after {
+  background: #111;
+}
+
+#glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+#glow-on-hover:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

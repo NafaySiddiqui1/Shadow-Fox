@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+/* Container For Information */
+.containerinfomation {
+  display: flex;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 32px rgb(0, 0, 0);
+  color: white;
+  font-family: "Nunito", sans-serif;
+  margin-top: 16px;
+  padding: 208px 134.4px;
+  margin: 24px;
+  border-radius: 23px;
+  width: 0%;
+  max-width: max-content;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.containerinfomation img {
+  border-radius: 8px;
+  width: 165%;
+  user-select: none;
+  transform: translate(53%, -83%);
+  transition: 0.6s ease;
+}
+.containerinfomation img:hover {
+  transform: translate(53%, -83%) scale(1.1);
+  transition: 0.4s linear;
+}
+.containerinfomation h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19.2px;
+  width: 230%;
+  max-width: 230%;
+  min-width: 230%;
+  transform: translate(23%, -935%);
+}
+.containerinfomation .description {
+  transform: translate(23%, -600%);
+  border-bottom: 5px solid white;
+  padding: 6.4px;
+  border-radius: 8px 8px 0px 0px;
+  font-size: 13.1px;
+  font-weight: bold;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  width: 220%;
+  font-family: "Nunito", sans-serif;
+}
+.fa-linkedin {
+  font-size: 30.5px;
+  color: #0000ff;
+  bottom: 135px;
+  left: 1.7em;
+  position: relative;
+  transition: 0.5s ease;
+  border-radius: 8px;
+  vertical-align: auto;
+}
+.fa-linkedin:hover {
+  color: #0077b5;
+  background-color: #ffffff;
+  transition: 0.3s linear;
+  border-radius: 8px;
+}
+.fa-github {
+  font-size: 30.5px;
+  color: white;
+  bottom: 133px;
+  left: 2.1em;
+  position: relative;
+  border-radius: 100px;
+  border: transparent;
+  transition: 0.5s ease;
+  vertical-align: auto;
+}
+.fa-github:hover {
+  color: #181717;
+  transition: 0.3s linear;
+  border-radius: 100px;
+  border: transparent;
+  background-color: white;
+}
+.fa-facebook {
+  bottom: 5.92em;
+  left: 5em;
+  position: relative;
+  font-size: 30.5px;
+  color: blue;
+  vertical-align: auto;
+  border-radius: 100px;
+  border: transparent;
+  transition: 0.5s ease;
+}
+.fa-facebook:hover {
+  color: #3457a3;
+  transition: 0.3s linear;
+  border-radius: 100px;
+  border: transparent;
+  background-color: rgb(255, 255, 255);
+}
+.containerinfomation a {
+  text-decoration: none;
+  padding: 8px;
+  transform: translate(85%, -160%);
+}
+
+/* Contact Infomation That Small Box inside the big box  */
+
+.fa-mobile-screen-button {
+  border: 5px solid rgb(255, 0, 170);
+  width: 8%;
+  border-radius: 8px;
+  background-color: black;
+  padding: 6.4px;
+  transition: 0.4s ease;
+}
+.fa-mobile-screen-button:hover {
+  background-color: rgb(255, 0, 170);
+  border: 5px solid rgb(255, 255, 255);
+  transition: 0.2s linear;
+}
+
+.fa-envelope {
+  border: 5px solid rgb(255, 0, 170);
+  width: 20%;
+  border-radius: 8px;
+  background-color: black;
+  padding: 6.4px;
+  transition: 0.4s ease;
+}
+.fa-envelope:hover {
+  background-color: rgb(255, 0, 170);
+  border: 5px solid rgb(255, 255, 255);
+  transition: 0.2s linear;
+}
+.fa-map-location-dot {
+  border: 5px solid rgb(255, 0, 170);
+  width: 10%;
+  border-radius: 8px;
+  padding: 6.4px;
+  background-color: black;
+  transition: 0.4s ease;
+}
+.fa-map-location-dot:hover {
+  background-color: rgb(255, 0, 170);
+  border: 5px solid rgb(255, 255, 255);
+  transition: 0.2s linear;
+}
+.fa-calendar-days {
+  border: 5px solid rgb(255, 0, 170);
+  width: 10%;
+  border-radius: 8px;
+  background-color: black;
+  padding: 6.4px;
+  transition: 0.4s ease;
+}
+.fa-calendar-days:hover {
+  background-color: rgb(255, 0, 170);
+  border: 5px solid rgb(255, 255, 255);
+  transition: 0.2s linear;
+}
+/* button Details that is inside the main box */
+#Downloadresume {
+  background-color: #0000ff;
+  font-family: "Nunito", sans-serif;
+  border: transparent;
+  border-radius: 11.2px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 4.8px;
+  font-size: 16px;
+  position: relative;
+  transform: translate(-1%, 55%);
+  padding: 19.2px 52.8px;
+  transition: 0.5s ease;
+}
+
+#Downloadresume:hover {
+  background-color: #0077b5;
+  transition: 0.3s linear;
+}
+#Downloadresume:active {
+  background-color: #002f95;
+  transition: 0.6s ease;
+}
+
+.contact-info {
+  background-color: #333;
+  font-family: "Nunito", sans-serif;
+  padding: 0px 9.6px;
+  border-radius: 8px;
+  font-weight: bold;
+  height: 336px;
+  min-height: 336px;
+  transform: translate(-21%, 45%);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 24px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.contact-label {
+  font-weight: bold;
+  font-size: 17.6px;
+  position: relative;
+  top: 11.2px;
+  left: 8px;
+  justify-content: start;
+  align-items: start;
+  display: flex;
+}
+
+.contact-value {
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  bottom: 8px;
+  left: 8px;
+  text-align: center;
+}
+.contact-value1 {
+  font-size: 14.4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  bottom: 9.6px;
+  left: 4.8px;
+  text-align: center;
+}
+.contact-value2 {
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  bottom: 9.6px;
+  left: 8px;
+  text-align: center;
+}
